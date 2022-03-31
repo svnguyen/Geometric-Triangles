@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gYrB0hDT0hvmOvkQg9EnfDkUuyXljqhX8UQQLK29upM=",
+  "Hash": "PIVEqRzR5gwCWsJ2rbIG6lWYm5M3N54roYbqVjWmPag=",
   "Source": "GeometricTriangleApplication",
   "BasePath": "_content/GeometricTriangleApplication",
   "Mode": "Default",
@@ -32,6 +32,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\triangle.css"
+    },
+    {
+      "Identity": "C:\\Users\\svn02\\source\\repos\\GeometricTriangleApplication\\GeometricTriangleApplication\\wwwroot\\images\\triangle_vertices.PNG",
+      "SourceId": "GeometricTriangleApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\svn02\\source\\repos\\GeometricTriangleApplication\\GeometricTriangleApplication\\wwwroot\\",
+      "BasePath": "_content/GeometricTriangleApplication",
+      "RelativePath": "images/triangle_vertices.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\triangle_vertices.PNG"
     },
     {
       "Identity": "C:\\Users\\svn02\\source\\repos\\GeometricTriangleApplication\\GeometricTriangleApplication\\wwwroot\\index.html",
