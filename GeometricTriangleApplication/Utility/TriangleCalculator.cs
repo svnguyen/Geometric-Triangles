@@ -68,7 +68,7 @@
             int distance3y = triangle.vertices3[1] - triangle.vertices2[1];
             double distance3 = Math.Sqrt((distance3x * distance3x) + (distance3y * distance3y));
 
-
+            // Formula for a right triangle
             if ((distance1 * distance1) + (distance2 * distance2) == Math.Round(distance3 * distance3))
             {
                 return true;
@@ -89,6 +89,7 @@
             int distance1 = triangle.vertices1[0] - triangle.vertices2[0];
             int distance2 = triangle.vertices1[1] - triangle.vertices3[1];
 
+            // The area of a right triangle in the example is 50 pixels
             if (Math.Abs(distance1 * distance2 / 2) == 50)
             {
                 return true;
