@@ -1,0 +1,14 @@
+﻿.label {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.m-l {
+    margin-left: 10px;
+}
+
+#canvas {
+    background: #FFFFFF;
+    margin: 10px;
+    border: 1px solid #86adcf;
+}

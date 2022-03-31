@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Geometric Triangles</title>
+    <link rel="stylesheet" href="css/triangle.css" />
+    <script src="js/triangle.js" asp-append-version="true"></script>
+</head>
+<body>
+    <h1 class="m-l">Geometric Triangles</h1>
+    <label class="label">Task 1.A - </label>
+    <label>
+        Calculate the triangle coordinates for an image with right triangles such that for a given
+        row (A-F) and column (1-12) you can produce any of the triangles in the layout.
+    </label>
+    <br /><br />
+    <label class="label" for="rows">Choose a row:</label>
+    <select name="rows" id="rows">
+        <option value="1">A</option>
+        <option value="2">B</option>
+        <option value="3">C</option>
+        <option value="4">D</option>
+        <option value="5">E</option>
+        <option value="6">F</option>
+    </select>
+    <label for="columns" class="label">Choose a column:</label>
+    <select name="columns" id="columns">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+    </select>
+    <button type="button" class="m-l" onclick="getVertices();">Get Triangle</button>
+    <br /><br />
+    <label class="label" for="rows">Vertice 1:</label>
+    <label id="vertices1"></label>
+    <br /><br />
+    <label class="label" for="rows">Vertice 2:</label>
+    <label id="vertices2"></label>
+    <br /><br />
+    <label class="label" for="rows">Vertice 3:</label>
+    <label id="vertices3"></label>
+    <br /><br />
+    <div>
+        <canvas id="canvas" width="300" height="300"></canvas>
+    </div>
+    <br />
+    <label class="label">Task 1.B - </label>
+    <label>
+        Given the vertex coordinates, calculate the row and column for the triangle.
+    </label>
+    <br /><br />
+    <label class="label" for="vertice1xSelect">Vertice 1:</label>
+    <label>(</label>
+    <select name="vertice1xSelect" id="vertice1xSelect">
+        <option value="0">0</option>
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="30">30</option>
+        <option value="40">40</option>
+        <option value="50">50</option>
+        <option value="60">60</option>
+    </select>
+    <label> , </label>
+    <select name="vertice1ySelect" id="vertice1ySelect">
+        <option value="0">0</option>
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="30">30</option>
+        <option value="40">40</option>
+        <option value="50">50</option>
+        <option value="60">60</option>
+    </select>
+    <label>)</label>
+    <label for="vertice2xSelect" class="label">Vertice 2:</label>
+    <label>(</label>
+    <select name="vertice2xSelect" id="vertice2xSelect">
+        <option value="0">0</option>
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="30">30</option>
+        <option value="40">40</option>
+        <option value="50">50</option>
+        <option value="60">60</option>
+    </select>
+    <label> , </label>
+    <select name="vertice2ySelect" id="vertice2ySelect">
+        <option value="0">0</option>
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="30">30</option>
+        <option value="40">40</option>
+        <option value="50">50</option>
+        <option value="60">60</option>
+    </select>
+    <label>)</label>
+    <label for="vertice3xSelect" class="label">Vertice 3:</label>
+    <label>(</label>
+    <select name="vertice3xSelect" id="vertice3xSelect">
+        <option value="0">0</option>
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="30">30</option>
+        <option value="40">40</option>
+        <option value="50">50</option>
+        <option value="60">60</option>
+    </select>
+    <label> , </label>
+    <select name="vertice3ySelect" id="vertice3ySelect">
+        <option value="0">0</option>
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="30">30</option>
+        <option value="40">40</option>
+        <option value="50">50</option>
+        <option value="60">60</option>
+    </select>
+    <label>)</label>
+    <button type="button" class="m-l" onclick="getRowAndColumn();">Get Row and Column</button>
+    <br /><br />
+    <label class="label">Row: </label>
+    <label id="row"></label>
+    <br /><br />
+    <label class="label">Column: </label>
+    <label id="column"></label>
+
+    <script type="text/javascript">
+        drawGrid();
+    </script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "gYrB0hDT0hvmOvkQg9EnfDkUuyXljqhX8UQQLK29upM=",
+  "Source": "GeometricTriangleApplication",
+  "BasePath": "_content/GeometricTriangleApplication",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "GeometricTriangleApplication\\wwwroot",
+      "Source": "GeometricTriangleApplication",
+      "ContentRoot": "C:\\Users\\svn02\\source\\repos\\GeometricTriangleApplication\\GeometricTriangleApplication\\wwwroot\\",
+      "BasePath": "_content/GeometricTriangleApplication",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\svn02\\source\\repos\\GeometricTriangleApplication\\GeometricTriangleApplication\\wwwroot\\css\\triangle.css",
+      "SourceId": "GeometricTriangleApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\svn02\\source\\repos\\GeometricTriangleApplication\\GeometricTriangleApplication\\wwwroot\\",
+      "BasePath": "_content/GeometricTriangleApplication",
+      "RelativePath": "css/triangle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\triangle.css"
+    },
+    {
+      "Identity": "C:\\Users\\svn02\\source\\repos\\GeometricTriangleApplication\\GeometricTriangleApplication\\wwwroot\\index.html",
+      "SourceId": "GeometricTriangleApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\svn02\\source\\repos\\GeometricTriangleApplication\\GeometricTriangleApplication\\wwwroot\\",
+      "BasePath": "_content/GeometricTriangleApplication",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\svn02\\source\\repos\\GeometricTriangleApplication\\GeometricTriangleApplication\\wwwroot\\js\\triangle.js",
+      "SourceId": "GeometricTriangleApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\svn02\\source\\repos\\GeometricTriangleApplication\\GeometricTriangleApplication\\wwwroot\\",
+      "BasePath": "_content/GeometricTriangleApplication",
+      "RelativePath": "js/triangle.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\triangle.js"
+    }
+  ]
+}
